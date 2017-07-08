@@ -2,4 +2,9 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Bienvenido a #{title}
+  ul
+    li
+      a(href="./abeancos2osm?url=http://www.abeancos.gal/node.json?type=elemento&format=json" target="_blank") Abeancos GeoJSON
+    li
+      a(href="./abeancos2osm?url=http://www.abeancos.gal/node.json?type=elemento&format=osm" target="_blank") Abeancos OSM
