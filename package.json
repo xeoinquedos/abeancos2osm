@@ -1,20 +1,31 @@
 {
   "name": "abeancos-osm",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
+    "body-parser": "1.17.1",
+    "cookie-parser": "1.4.3",
+    "debug": "2.6.3",
+    "express": "4.15.2",
     "geojson2osm": "0.0.6",
-    "jade": "~1.11.0",
-    "morgan": "~1.8.1",
+    "jade": "1.11.0",
+    "morgan": "1.8.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
-    "serve-favicon": "~2.4.2"
+    "serve-favicon": "2.4.2"
+  },
+  "keywords": ["osm", "abeancos", "json"],
+  "description": "Servizo para obter os datos dende as API's das diferentes plataformas",
+  "license": "GPLv3",
+  "author": "Xeoinquedos <info@xoeinquedos.eu>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xeoinquedos/abeancos2osm.git"
+  },
+  "engines": {
+    "node": "7.10.0"
   }
 }
