@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node ./bin/www",
+    "build": "node src/index.js"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
