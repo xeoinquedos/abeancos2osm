@@ -46,7 +46,7 @@ router.get('/abeancos2osm', function(req, res) {
       res.send(json)
     } else if(format === 'osm') {
       res.set({
-        'Content-type': 'application/json'
+        'Content-type': 'application/xml'
       })
       res.send(geojson2osm.geojson2osm(json))
     }
